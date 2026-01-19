@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     color: var(--color-text);
+    box-sizing: border-box;
 }
 body{
     background-color: var(--color-darkbg);
@@ -153,17 +154,20 @@ header{
     background-color: transparent;
     font-weight: 500;
     padding: 12px 20px;
+    cursor: pointer;
 }
 
 /* ABOUT */
 .about{
+    width: 100%;
+    padding: 0 200px;
 }
 .about-text{
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 50px 400px;
+    padding: 50px 200px;
 }
 .about-text .section-heading{
     font-size: 48px;
@@ -181,7 +185,7 @@ hr{
     display: flex;
     justify-content: space-between;
     gap: 80px;
-    padding: 0 200px 120px;
+    padding: 0 0 120px;
 }
 .stat-info{
     text-align: center;
@@ -198,3 +202,4 @@ hr{
 .stat-sub{
     color: var(--color-dim);
 }
+
