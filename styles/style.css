@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #1A0B2E;
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    max-width: 1600px;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+:root{
+    --grad-btn: linear-gradient(to top right, #f7e043, #f709b7, #8f10ec); 
+    --grad-text: linear-gradient(to top right,  #f7e043, #f709b7, #8f10ec);
+    --color-text: #ffffff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+}
+.brand-text{
+    color: var(--color-text);
+    font-size: 44px;
+    line-height: 0%;
+}
+.text-color{
+   background: var(--grad-text);
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.btn-primary{
+    background: var(--grad-btn);
+    padding: 12px 16px;
+    border-radius: 1000px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-box{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+.nav-item a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 500;
+}
